@@ -10,6 +10,6 @@ test('renders horizon h2 tag', () => {
 
 test('renders horizon h2 tag', () => {
   render(<Horizon />);
-  const linkElement = screen.getByText(/Horizon 3/i);
+  const linkElement = screen.getByText(/hello/i);
   expect(linkElement).toBeInTheDocument();
 });
